@@ -12,7 +12,7 @@ func main() {
     var spending_map = make(map[string]float64)
 
     //open the CSV file, returning the log if it errors
-    file, err := os.Open("february.csv")
+    file, err := os.Open("spending.csv")
     if err != nil {
         log.Fatal(err)
     }
